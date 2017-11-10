@@ -34,4 +34,4 @@ sysinfo.txt
 *.unitypackage
 
 # Added by DaemonUmbra(Colby)
-/Assets/Scenes/Asset Scenes/
+/Assets/Resources/Scenes/Asset\ Scenes*
