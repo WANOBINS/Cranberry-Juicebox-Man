@@ -9,7 +9,9 @@ public class DeadEnd : MonoBehaviour {
 
     public AudioClip OhNo1;
     public AudioClip OhNo2;
-    public AudioClip OhNo3;
+    public AudioClip Yes;
+
+    public AudioSource Source;
 
     public GameObject CBJBM;
 
@@ -21,28 +23,36 @@ public class DeadEnd : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        if (GM.OhNo1 == true && GM.OhNo2 == true)
+        {
+            StartCoroutine(Death());
+        }
+
         if (GM.OhNo1 == true && GM.OhNo2 == false)
         {
-            // Insert Instantiate Here
-            // Insert Audio Clip Playing Here
+            Source.Play();
             GM.OhNo2 = true;
         }
 
 
         if (GM.OhNo1 == false)
         {
-            // Insert Instantiate Here
-            // Insert Audio Clip Playing Here
+            Source.clip = OhNo1;
+            Source.Play();
             GM.OhNo1 = true;
         }
-
        
-        if(GM.OhNo1 == true && GM.OhNo2 == true)
-        {
-            // Insert Audio Clip Playing Here
-            // Insert Death Here
-            // Shoebopadoo
-        }
+    }
 
+    IEnumerator Death()
+    {
+        Source.clip = OhNo2;
+        Source.Play();
+        yield return new WaitForSeconds(1.0f);
+        Instantiate(CBJBM, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+        Source.clip = Yes;
+        Source.Play();
+        yield return new WaitForSeconds(2.0f);
+        Application.Quit();
     }
 }
