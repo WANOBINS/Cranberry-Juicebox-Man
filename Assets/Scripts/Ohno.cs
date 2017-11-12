@@ -6,16 +6,21 @@ public class Ohno : MonoBehaviour
 {
     public AudioSource Source;
     public AudioClip ohNo;
-    public AudioClip YES;
     public AudioEchoFilter Echo;
+
+    public AudioSource cranSource;
+    public AudioClip YES;
+    public AudioClip wallCrash;
+    
     private int ohNoCount = 0;
     public float ohNoDelay;
 
     // Use this for initialization
     private void Awake()
     {
-        Source = GetComponent<AudioSource>();
+        //Source = GetComponent<AudioSource>();
         Source.clip = ohNo;
+        cranSource.clip = wallCrash;
     }
 
     // Update is called once per frame
@@ -23,14 +28,14 @@ public class Ohno : MonoBehaviour
     {
 		// for test
         if(Input.GetKeyDown(KeyCode.Space))
-        {
-            
-            Source.PlayDelayed(ohNoDelay);
+        {            
+            Source.PlayDelayed(ohNoDelay); //plays ohNo on delay
             ohNoCount++;
         }
         if (ohNoCount >= 3)
         {
-            Source.PlayOneShot(YES);
+            cranSource.Play(); //plays wallCrash
+            cranSource.PlayOneShot(YES);
             ohNoCount = 0;
         }
 	}
