@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 16ae6509b06a6564ea5a08b65f732271
+timeCreated: 1510505025
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Bone.002
+    100006: Bone.003
+    100008: Bone.004
+    100010: //RootNode
+    100012: Head
+    100014: Hemi
+    100016: L_Calf
+    100018: L_Eye.001
+    100020: L_Eye.001_end
+    100022: L_EyeSub
+    100024: L_Foot
+    100026: L_Heel
+    100028: L_Hip
+    100030: L_Pinky
+    100032: L_Pinky.001
+    100034: L_Pinky.002
+    100036: L_Pinky.003
+    100038: L_Pinky.003_end
+    100040: L_Pointer
+    100042: L_Pointer.001
+    100044: L_Pointer.002
+    100046: L_Pointer.003
+    100048: L_Pointer.003_end
+    100050: L_RingFinger
+    100052: L_RingFinger.001
+    100054: L_RingFinger.002
+    100056: L_RingFinger.003
+    100058: L_RingFinger.003_end
+    100060: L_Shoulder
+    100062: L_Theigh
+    100064: L_Thumb
+    100066: L_Thumb.001
+    100068: L_Thumb.002
+    100070: L_Thumb.002_end
+    100072: Left Toe
+    100074: Left Toe_end
+    100076: R_Bicep
+    100078: R_Calf
+    100080: R_Eye
+    100082: R_Eye_end
+    100084: R_EyeSub
+    100086: R_Foot
+    100088: R_ForeArm
+    100090: R_ForeArm.001
+    100092: R_Heel
+    100094: R_Hip
+    100096: R_Index
+    100098: R_Index.001
+    100100: R_Index.002
+    100102: R_Index.003
+    100104: R_Index.003_end
+    100106: R_Middle
+    100108: R_Middle.001
+    100110: R_Middle.002
+    100112: R_Middle.003
+    100114: R_Middle.003_end
+    100116: R_MidFinger
+    100118: R_MidFinger.001
+    100120: R_MidFinger.002
+    100122: R_MidFinger.003
+    100124: R_MidFinger.003_end
+    100126: R_Pinky
+    100128: R_Pinky.001
+    100130: R_Pinky.002
+    100132: R_Pinky.003
+    100134: R_Pinky.003_end
+    100136: R_Ring
+    100138: R_Ring.001
+    100140: R_Ring.002
+    100142: R_Ring.003
+    100144: R_Ring.003_end
+    100146: R_Shoulder
+    100148: R_Theigh
+    100150: R_Thumb
+    100152: R_Thumb.001
+    100154: R_Thumb.002
+    100156: R_Thumb.002_end
+    100158: R_Toe
+    100160: R_Toe_end
+    100162: Sphere.001
+    400000: Armature
+    400002: Body
+    400004: Bone.002
+    400006: Bone.003
+    400008: Bone.004
+    400010: //RootNode
+    400012: Head
+    400014: Hemi
+    400016: L_Calf
+    400018: L_Eye.001
+    400020: L_Eye.001_end
+    400022: L_EyeSub
+    400024: L_Foot
+    400026: L_Heel
+    400028: L_Hip
+    400030: L_Pinky
+    400032: L_Pinky.001
+    400034: L_Pinky.002
+    400036: L_Pinky.003
+    400038: L_Pinky.003_end
+    400040: L_Pointer
+    400042: L_Pointer.001
+    400044: L_Pointer.002
+    400046: L_Pointer.003
+    400048: L_Pointer.003_end
+    400050: L_RingFinger
+    400052: L_RingFinger.001
+    400054: L_RingFinger.002
+    400056: L_RingFinger.003
+    400058: L_RingFinger.003_end
+    400060: L_Shoulder
+    400062: L_Theigh
+    400064: L_Thumb
+    400066: L_Thumb.001
+    400068: L_Thumb.002
+    400070: L_Thumb.002_end
+    400072: Left Toe
+    400074: Left Toe_end
+    400076: R_Bicep
+    400078: R_Calf
+    400080: R_Eye
+    400082: R_Eye_end
+    400084: R_EyeSub
+    400086: R_Foot
+    400088: R_ForeArm
+    400090: R_ForeArm.001
+    400092: R_Heel
+    400094: R_Hip
+    400096: R_Index
+    400098: R_Index.001
+    400100: R_Index.002
+    400102: R_Index.003
+    400104: R_Index.003_end
+    400106: R_Middle
+    400108: R_Middle.001
+    400110: R_Middle.002
+    400112: R_Middle.003
+    400114: R_Middle.003_end
+    400116: R_MidFinger
+    400118: R_MidFinger.001
+    400120: R_MidFinger.002
+    400122: R_MidFinger.003
+    400124: R_MidFinger.003_end
+    400126: R_Pinky
+    400128: R_Pinky.001
+    400130: R_Pinky.002
+    400132: R_Pinky.003
+    400134: R_Pinky.003_end
+    400136: R_Ring
+    400138: R_Ring.001
+    400140: R_Ring.002
+    400142: R_Ring.003
+    400144: R_Ring.003_end
+    400146: R_Shoulder
+    400148: R_Theigh
+    400150: R_Thumb
+    400152: R_Thumb.001
+    400154: R_Thumb.002
+    400156: R_Thumb.002_end
+    400158: R_Toe
+    400160: R_Toe_end
+    400162: Sphere.001
+    4300000: Sphere.001
+    9500000: //RootNode
+    10800000: Hemi
+    13700000: Sphere.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: dc8c4012bdf330b4c8c0948bd73da36c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
