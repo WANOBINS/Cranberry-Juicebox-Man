@@ -10,6 +10,7 @@ public class Ohno : MonoBehaviour
     public AudioEchoFilter Echo;
     private int ohNoCount = 0;
     public float ohNoDelay;
+    private bool OhYesScheduled = false;
 
     // Use this for initialization
     private void Awake()
@@ -30,8 +31,14 @@ public class Ohno : MonoBehaviour
         }
         if (ohNoCount >= 3)
         {
-            Source.PlayOneShot(YES);
+            //Source.PlayOneShot(YES);
+            OhYesScheduled = true;
             ohNoCount = 0;
+        }
+        if(OhYesScheduled && !Source.isPlaying)
+        {
+            OhYesScheduled = false;
+            Source.PlayOneShot(YES);
         }
 	}
 }
