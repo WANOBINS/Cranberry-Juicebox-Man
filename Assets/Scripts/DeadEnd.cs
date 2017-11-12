@@ -11,6 +11,8 @@ public class DeadEnd : MonoBehaviour {
     public AudioClip OhNo2;
     public AudioClip OhNo3;
 
+    public GameObject CBJBM;
+
 	// Use this for initialization
 	void Start () {
         GM = FindObjectOfType<GameManager>();
@@ -21,12 +23,14 @@ public class DeadEnd : MonoBehaviour {
     {
         if(GM.OhNo1 == false)
         {
+            // Insert Instantiate Here
             // Insert Audio Clip Playing Here
             GM.OhNo1 = true;
         }
 
         if(GM.OhNo1 == true && GM.OhNo2 == false)
         {
+            // Insert Instantiate Here
             // Insert Audio Clip Playing Here
             GM.OhNo2 = true;
         }
