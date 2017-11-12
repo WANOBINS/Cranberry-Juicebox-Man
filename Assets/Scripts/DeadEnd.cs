@@ -21,20 +21,22 @@ public class DeadEnd : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(GM.OhNo1 == false)
-        {
-            // Insert Instantiate Here
-            // Insert Audio Clip Playing Here
-            GM.OhNo1 = true;
-        }
-
-        if(GM.OhNo1 == true && GM.OhNo2 == false)
+        if (GM.OhNo1 == true && GM.OhNo2 == false)
         {
             // Insert Instantiate Here
             // Insert Audio Clip Playing Here
             GM.OhNo2 = true;
         }
 
+
+        if (GM.OhNo1 == false)
+        {
+            // Insert Instantiate Here
+            // Insert Audio Clip Playing Here
+            GM.OhNo1 = true;
+        }
+
+       
         if(GM.OhNo1 == true && GM.OhNo2 == true)
         {
             // Insert Audio Clip Playing Here
